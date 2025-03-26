@@ -31,7 +31,7 @@ def test_value_error_assertion():
     
 def test_fix_phone_num_is_digits():
   with pytest.raises(ValueError):
-    fix_phone_num("abc1123").isdigit()
+    fix_phone_num("abc1123")
     
     
     
